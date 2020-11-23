@@ -13,7 +13,7 @@ namespace PurseProjecthom
         {
             BusinesCard businesCard = new BusinesCard();
             businesCard.BCard = "BC1";
-            
+            Console.WriteLine(businesCard.BCard);
         }
     }
 }
