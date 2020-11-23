@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BusinesCardLibrary;
 using CreditCardLibrary;
+using LibraryMoney;
 
 namespace PurseProjecthom
 {
@@ -17,6 +18,8 @@ namespace PurseProjecthom
             
             CreditCard creditCard = new CreditCard();
             creditCard.Kreditka = "MasterCard"; Console.WriteLine(creditCard.Kreditka);
+
+            Money money = new Money(); money.Amount = "n5677dhhdhdvdv";Console.WriteLine(money.Amount);
 
         }
     }
