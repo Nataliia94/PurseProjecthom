@@ -36,6 +36,9 @@
     <Reference Include="BusinesCardLibrary">
       <HintPath>..\BusinesCardLibrary\bin\Debug\BusinesCardLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="CreditCardLibrary">
+      <HintPath>..\CreditCardLibrary\bin\Debug\CreditCardLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

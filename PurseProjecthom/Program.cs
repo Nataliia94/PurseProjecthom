@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BusinesCardLibrary;
+using CreditCardLibrary;
 
 namespace PurseProjecthom
 {
@@ -12,8 +13,11 @@ namespace PurseProjecthom
         static void Main(string[] args)
         {
             BusinesCard businesCard = new BusinesCard();
-            businesCard.BCard = "BC1";
-            Console.WriteLine(businesCard.BCard);
+            businesCard.BCard = "BC1"; Console.WriteLine(businesCard.BCard);
+            
+            CreditCard creditCard = new CreditCard();
+            creditCard.Kreditka = "MasterCard"; Console.WriteLine(creditCard.Kreditka);
+
         }
     }
 }
